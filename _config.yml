@@ -4,13 +4,14 @@ name: Eunha's Diary
 description: Software Developer
 
 # Url is currently only used only for the RSS feed in feed.xml
-url: "http://emellen.com"
+# url: http://emellen.com
+url: http://localhost:4000
 
 # For a project page here should be a project name. Otherwise (for user's/organizaion's page leave it empty)
-baseurl: ''
+baseurl: '/blog'
 
 social:
-  github: 'lee10104'
+  github: lee10104
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
