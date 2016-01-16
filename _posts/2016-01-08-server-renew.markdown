@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "서버 갈아엎음"
+tags: 설치 login_message
 comments: true
 ---
 
