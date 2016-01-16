@@ -1,6 +1,7 @@
 ---
 layout: post
 title: postgresql
+tags: postgresql blog
 comments: true
 ---
 

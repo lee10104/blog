@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "개종당함"
+tags: 설치 jekyll
 comments: true
 ---
 pl 숙제 하려고 김젼네에 갔다가 사상을 주입당하고 왔다. <br>
