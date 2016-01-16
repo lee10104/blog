@@ -13,10 +13,6 @@ baseurl: '/sapjil'
 
 social:
   github: lee10104
-  stackoverflow: ''
-  linkedin:
-  instagram: ''
-  lastfm: ''
   rss: feed.xml
 
 # Google Analytics key, leave blank to ignore
