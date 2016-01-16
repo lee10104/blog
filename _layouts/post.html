@@ -7,7 +7,7 @@
         <div class="col-md-8">
           <div class="article">
             <div class="well">
-              <h1><a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></h1>
+              <h1><a href="{{ site.url | append:site.baseurl | append:page.url }}">{{ page.title }}</a></h1>
               <div class="post-meta">
                 <div class="post-time">
                   <i class="fa fa-calendar"></i>
