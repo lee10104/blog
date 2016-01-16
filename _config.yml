@@ -10,7 +10,7 @@ title: eunha's diary
 email: lee95625@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   음 이거 마음엔 안 들지만 잠시 써볼까나 ㅇㅅaㅇ
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/sapjil" # the subpath of your site, e.g. /blog
 url: "http://emellen.com" # the base hostname & protocol for your site
 twitter_username: mrn_galaxy
 github_username: lee10104 
