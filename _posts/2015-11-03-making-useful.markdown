@@ -2,7 +2,6 @@
 layout: post
 title: "서버를 서버답게!"
 tags: 설치
-comments: true
 ---
 *서버를 깔고 지금까지 있었던 삽질 모음(?)*<br><br>
 끙 너무 어렵다.<br>

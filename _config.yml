@@ -24,8 +24,8 @@ yandex_metrica:
 # Set this to your disqus shortname to enable comments. Note that the 'comments'
 # setting below must also be true. Individual posts can override 'comments' to
 # disable on a post-by-post basis
-disqus: mrn_galaxy
-comments: true
+disqus: emellen
+comments: false
 
 permalink: /:year/:month/:title
 
