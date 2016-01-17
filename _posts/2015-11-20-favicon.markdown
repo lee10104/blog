@@ -2,6 +2,7 @@
 layout: post
 title: 파비콘 삽입
 tags: favicon login_message
+description: favicon 삽입, login message 발상
 ---
 파비콘을 넣고 싶다는 생각이 문득 들어서 넣기로 했다.<br>
 일단 찾아보니까 파비콘 파일을 서버에 놓은 다음 index.html에 써야 한다고 했으나 jekyll은 빌드 할 때마다 index.html이 원래대로? 돌아가는 것 같길래 jekyll은 어떤지 찾아봤더니 원하는 이미지 파일을 favicon.ico라는 이름으로 넣기만 하면 되었다. 이렇게 쉬울 수가!<br>
