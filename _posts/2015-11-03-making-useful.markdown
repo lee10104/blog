@@ -3,6 +3,7 @@ layout: post
 title: "서버를 서버답게!"
 tags: 설치
 description: 서버를 깔고 지금까지 있었던 삽질 모음(?)
+comments: true
 ---
 끙 너무 어렵다.<br>
 일단 가장 먼저 build-essential을 깔고, 한글 키보드 nabi를 깔았다. 그리고 irc를 하기 위해 irssi를 깔지 weechat을 깔지 고민하다가 봇 만들고 싶어서 weechat을 깔았다. perl 싫어... 그리고 screen도 깔아보고 tmux도 깔아봤는데 둘 다 weechat이 깨져서(..) 그냥 다 삭제해버렸다.<br>

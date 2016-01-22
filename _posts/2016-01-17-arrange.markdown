@@ -3,6 +3,7 @@ layout: post
 title: 마무리
 tags: git
 description: post 정리, comment 적용 실패
+comments: true
 ---
 테마를 바꾼 김에 여기에 적용되는 기능들을 잘 써주기로 했다. 먼저 댓글을 쓸 수 있는 Disqus라는 것을 적용해보기로 했다. 분명 jekyll-clean-dark theme을 만든 사람은 config 파일에 comment를 true로 써놓고 post에도 comments: true 같은 것을 써놓으면 된다고 했는데 영 되질 않았다. 그냥 [Disqus](http://disqus.com)로 연결되는 링크만 나오고 도무지 댓글을 쓸 수 있는 창은 안 나오고. build된 \_site 폴더에 들어가서 post를 봤더니 homepage에 보이게 하기 전에 disqus shortname을 추가해야 된다고 했다. 아니 그럼 build할 때마다 이걸 다시 수정해줘야 하거나 뭐 그런건가? 뭣보다 저거 고쳐도 안 됐다(..) 딱히 간절한 기능도 아니고 귀찮기도 해서 그냥 없애버렸다. 누가 여기까지 와서 댓글을 남겨줄 것도 아니고.<br>
 post들에 description을 추가할 수 있게 되어 추가했다. 보기 좋게 좀 고쳐주기도 하고. 쓸데없는 commit을 좀 많이 한 것 같다.. origin에 push했는데 내가 또 습관적으로 origin에 push해놓고 git reset을 하는 바람에 head 위치가 달라 push가 되지 않았다. 원래 이럴 땐 귀찮아서 맨나 force 옵션을 주는데 이번엔 정석대로(?) 해보고 싶어서 검색해서 따라했다. commit log가 아주 더러워졌다. 기분도 더러워졌다.ㅡㅡ 다음부턴 그냥 force 해버릴거야... rebase를 하면 좀 예뻐지긴 할텐데 함부로 했다가 뭐 꼬일까봐 자제하기로 했다. 언제쯤 git을 공부해야겠다.
