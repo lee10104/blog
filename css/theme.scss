@@ -49,12 +49,7 @@ body {
 .main-page {
   width: 75%;
 }
-//.well h1 {
-//  color: #ddd;
-//  font: {
-//    size: 1.3em
-//  }
-//}/
+
 h1 { font-size: 2em; }
 h2 { font-size: 1.5em; }
 h3 { font-size: 1.17em; }
@@ -187,25 +182,31 @@ div.post-meta {
   color: yellow;
 }
 
-//********************************************************
-//                    Header
-//********************************************************
-
+//    _  _             _
+//   | || |___ __ _ __| |___ _ _
+//   | __ / -_) _` / _` / -_) '_|
+//   |_||_\___\__,_\__,_\___|_|
+//
 nav a {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
+  @include transition(color 0.31s);
   font-size: 18px;
-  font-family: ubuntu;
+  font-family: Ubuntu;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
-nav .navbar-toggle {
-  margin: 13px 15px 13px 0;
+nav.navbar {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+nav.navbar.shrink {
+  min-height: 15px;
 }
 .navbar-brand {
   font-size: 30px;
   color: #3CA2A2 !important;
-}
-nav.navbar.shrink {
-  min-height: 25px;
+
 }
 nav.shrink a {
   padding-top: 10px !important;
@@ -216,13 +217,16 @@ nav.shrink .navbar-brand {
   font-size: 25px;
   height: inherit;
 }
-nav.shrink .navbar-toggle {
-  padding: 4px 5px;
-  margin: 8px 15px 8px 0;
-}
 .navbar .navbar-nav {
   display: inline-block;
   float: right;
+}
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
 }
 
 @media (min-width: 1000px) {
@@ -280,16 +284,6 @@ nav.shrink .navbar-toggle {
 	margin:40px auto;
 }
 
-
-/*==================================================
- * Effect 1
- * ===============================================*/
-.effect1{
-	-webkit-box-shadow: 0 10px 6px -6px #777;
-	   -moz-box-shadow: 0 10px 6px -6px #777;
-	        box-shadow: 0 10px 6px -6px #777;
-}
-
 .wrapper{
   min-height: 100%;
   position: relative;
@@ -297,4 +291,14 @@ nav.shrink .navbar-toggle {
 
 .content{
   padding-bottom: 250px;
+}
+
+.key {
+  font-size: 1.0em;
+  box-shadow: 1px 0 1px 0 #555, 0 1px 0 2px #888, 0 2px 0 2px #777;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin: 2px 3px;
+  padding: 0px 5px;
 }
